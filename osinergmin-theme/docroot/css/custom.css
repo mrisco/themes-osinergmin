@@ -1,0 +1,232 @@
+/* -------- Global -------- */
+
+#skip-to-content,
+#heading .community-title,
+#heading .page-title,
+#navigation h1 {
+	clip: rect(0 0 0 0);
+	position: absolute;
+}
+
+/* -------- Wrapper / Skip / Sign-in -------- */
+
+#wrapper {
+	margin: 0 auto; /*0*/
+	position: relative;
+}
+
+#skip-to-content,
+#sign-in {
+	color: #FFF;
+	top: 1.5em;
+}
+
+#skip-to-content {
+	left: 2em;
+}
+
+#skip-to-content:active,
+#skip-to-content:focus {
+	clip: auto;
+}
+
+#sign-in {
+	position: absolute;
+	right: 2em;
+}
+
+/* -------- Banner-------- */
+
+#banner {
+	background:  url(../images/custom/header-bg.gif) repeat-x /* #1959c8 left bottom*/;
+	height: 105px; /*97px*/
+}
+
+#heading {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#heading .company-title {
+	margin: 0;
+	padding: 15px 0 10px;
+}
+
+/* -------- Navigation -------- */
+
+#navigation {
+	
+	font: bold 11px Arial, Helvetica, sans-serif;
+	margin: 14px auto 5px ; 
+	text-transform: uppercase;
+	width: 960px;
+	right: 50px;
+}
+
+#navigation ul {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #10354A;
+	background-image: -moz-linear-gradient(#215172, #10354A);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #215172), color-stop(1.0, #10354A));
+	border: 1px solid;
+	border-color: #597D95 #506E82 #879AA5;
+	border-radius: 4px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#215172', EndColorStr='#10354A');
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1;
+	list-style: none;
+	margin: 1px;
+	padding: 0;
+	text-transform: uppercase;
+	
+}
+
+#navigation li,
+#navigation a {
+	display: inline-block;
+	position: relative;
+}
+
+.ie6 #navigation li,
+.ie7 #navigation li,
+.ie6 #navigation a,
+.ie7 #navigation a {
+	display: inline;
+	zoom: 1;
+}
+
+#navigation a {
+	color: #FFF;
+	outline: 0;
+	padding: 11px 13px;
+	text-decoration: none;
+}
+
+#navigation .selected a,
+#navigation a:hover,
+#navigation a:active,
+#navigation a:focus {
+	color: #BBB;
+}
+
+#navigation a:active,
+#navigation a:focus {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #154661;
+	background-image: -moz-linear-gradient(#1D4663, #154661);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #1D4663), color-stop(1.0, #154661));
+	border-radius: 3px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#1D4663', EndColorStr='#154661');
+}
+
+#navigation a:active span,
+#navigation a:focus span {
+	position: relative;
+	top: 2px;
+}
+
+/*-submenu-*/
+
+#navigation li:hover .child-menu {
+	background: #1E2529;
+	display: block;
+	position: absolute;
+	width: 210px;
+	z-index: 300;
+}
+
+.ie6 #navigation li.hover .child-menu {
+	background: #1E2529;
+	display: block;
+	position: absolute;
+	width: 200px;
+	z-index: 300;
+}
+
+#navigation .child-menu {
+	display: none;
+}
+
+#navigation .child-menu li {
+	border-width: 0 0 1px;
+	display: block;
+	float: none;
+	margin: 0;
+}
+
+#navigation .child-menu li a {
+	cursor: pointer !important;
+}
+
+.ie7 #navigation .child-menu li a {
+	zoom: 1;
+}
+
+#navigation .child-menu li a:hover {
+	background-color: #020509;
+}
+
+#navigation .child-menu .selected a {
+	background: #020509 /*url(../images/navigation/bullet_selected.png) no-repeat 5px 50%*/;
+}
+
+/* -------- Content -------- */
+
+#content {
+	margin: 5px auto; /*0*/
+	min-height: 100px;
+	padding: 25px 0;
+	width: 960px;
+}
+
+#breadcrumbs {
+	display: none;
+}
+
+.portlet {
+	margin: 0 0 15px;
+}
+
+.portlet-topper {
+	background: #EEE;
+	/*padding: 4px;*/
+	visibility: hidden;
+}
+
+.portlet-content {
+	border: 1px solid #EEE;
+	color: #303030;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+.portlet-title {
+	color: #333;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* -------- Footer -------- */
+
+#footer {
+	background: #061F2E;
+	padding: 9px 0;
+	text-align: right;
+}
+
+#footer p {
+	color:  #EEE;
+	font: 11px Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 960px;
+	
+}
+#footer,
+#footer a {
+	color: #1959c8;
+	font-weight: bold;
+}

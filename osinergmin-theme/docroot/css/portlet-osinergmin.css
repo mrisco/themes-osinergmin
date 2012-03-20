@@ -1,0 +1,140 @@
+h2, h3, h4 {
+	font-family: 'BenettonRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-weight:normal; 
+	text-transform:uppercase
+	}
+
+h2 {
+	font-size:15px; 
+	line-heigth:15px;
+	}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-weight:normal; 
+	font-size:12px; 
+	line-heigth:16px; 
+	color:#666;
+	}
+
+/* Theme */
+h2{ 
+	background:#009933; 
+	height:25px; 
+	line-height:25px; 
+	width:100%;
+	color:#FFF;
+	}
+
+h2{ 
+background:#004993;
+	}
+
+.button, .button:visited, .medium.button, .medium.button:visited {
+	font-size: 12px;
+	line-height: 12px;
+	padding:5px 20px;
+	}
+
+.grey.button, .grey.button:visited {
+	background-color: #c2c2c2;
+	color: #000;
+	}
+
+.grey.button:hover { 
+	background-color: #949494;
+	color: #000;
+	}
+/*a h2, aside a h2{color:#FFF; text-decoration:none;width:100%;}*/
+
+#lb_errorbusqueda{
+	display:none;
+	position:absolute;
+	z-index:100000;
+	right:35%;/*173px*/
+	top:30%;
+	}
+
+#lb_error-form{
+	width:337px;
+	overflow:hidden;
+	display:none;
+	position:absolute;
+	top:600px;
+	left:317px;
+	}
+
+.error_up{
+	overflow:hidden;
+	width:337px;
+	height:15px;
+	background:url("/osinergmin-theme/images/maps/lb_error-up.png") 0 0 no-repeat;
+	}
+
+.error_center{
+	overflow:hidden;
+	width:305px;
+	background:url("/osinergmin-theme/images/maps/lb_error-center.png") 0 0 repeat-y;
+	padding:0 0 20px 32px;
+	}
+
+.error_bottom{
+	overflow:hidden;
+	width:337px;
+	height:16px;
+	background:url("/osinergmin-theme/images/maps/lb_error-bott.png") 0 0 no-repeat;
+	}
+
+.error_mark{
+	padding:0 0 13px ;
+	overflow:hidden;
+	float:left;
+	width:100%;
+	}
+
+.error_mark_img{
+	float:left;
+	text-align:right;
+	width:158px;
+	padding-top:13px;
+	}
+
+.error_mark_cerrar{
+	float:left;
+	text-align:right;
+	width:130px;
+	cursor:pointer;
+	}
+
+.error_warning{
+	font-size:13px;
+	color:#ca005d;
+	font-weight:bold;
+	padding-bottom:8px;
+	display:block;
+	}
+
+.error_msj{
+	font-size:12px;
+	color:#747678;
+	/*padding-bottom:8px;*/
+    padding-left: 5px;
+    padding-right: 15px;
+    width: 270px;
+	/*padding:15px;*/
+	display:block;
+	}
+
+.error_cont{
+	overflow:hidden;
+	padding:0 32px 0 0;
+	}
+
+.error_cont ul li{
+	font-size:12px;
+	color:#747678;
+	font-weight:bold;
+	padding-left:7px;
+	padding-bottom:3px;
+	background:url("/osinergmin-theme/images/maps/lb_error_li.jpg") 0 6px no-repeat;
+	}
